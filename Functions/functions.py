@@ -19,3 +19,13 @@ def readStationInfo(filepath):
     for station in stations_info["stations"]:
         stations[int(station["id"])] = station
     return stations
+
+def convertDictToList(dict):
+    result = []
+    for key, value in dict.iteritems():
+        temp = [key, value]
+        result.append(temp[1])
+    return result
+
+def jsonDefault(object):
+    return object.__dict__
