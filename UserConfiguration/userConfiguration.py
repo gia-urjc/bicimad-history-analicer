@@ -13,7 +13,6 @@ def randomizeInstant(route):
 def getPositionByIdStation(idInit, stationsInfo):
     return GeoPosition(stationsInfo[idInit]["position"]["latitude"], stationsInfo[idInit]["position"]["longitude"])
 
-
 def determinateVelocityAndDistance(route, idInit, idEnd, position, destinationPlace):
     if idInit != idEnd:
         if route.has_key("track"):
@@ -58,7 +57,8 @@ def randomizePosition(idStation, stationsInfo, distance):
 
 def determinateIntermediatePosition(position, route, parameters, distance):
     intermediatePoint = GeoPosition.randomPointCircumference(position, distance/2)
-    parameters["parameters"] = {"intermediatePosition": {"latitude": intermediatePoint.latitude , "longitude": intermediatePoint.longitude}}
+    parameters["parameters"] = {"intermediatePosition": {"latitude": intermediatePoint.latitude,
+                                                         "longitude": intermediatePoint.longitude}}
     return parameters
 
 

@@ -8,7 +8,9 @@ def generateUser(self,user):
 
 def isValidUser(user, startDate, endDate):
     date = dateutil.parser.parse(user["unplug_hourTime"]["date"])
-    valid = startDate <= date <= endDate and user["travel_time"] >= (3*60)
+    valid_time = 3*60
+    user_type = user["user_type"]
+    valid = startDate <= date <= endDate and user["travel_time"] >= valid_time and user_type != 3
     return valid
 
 def readStationInfo(filepath):
@@ -29,3 +31,11 @@ def convertDictToList(dict):
 
 def jsonDefault(object):
     return object.__dict__
+
+
+def isWeekend(date):
+    return date.isoweekday() == 6 or date.isoweekday() == 7
+
+def writeFile(objet_to_write, name_file):
+    with open(name_file, "w") as outfile:
+        json.dump(objet_to_write, outfile, default=jsonDefault, indent=4)
