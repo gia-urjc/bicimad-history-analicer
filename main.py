@@ -55,6 +55,7 @@ def generateStationConfiguration(date, stationsInfo):
     hour = date[3]
     minutes = date[4]
     seconds = date[5]
+    count_bikes = 0
 
     client = MongoClient("localhost", 27017)
     db = client.mongo
@@ -63,12 +64,17 @@ def generateStationConfiguration(date, stationsInfo):
     d_end = datetime.datetime(year, month, day, hour, minutes + 5, seconds)
     for post in collection.find({"time": {"$gte": d_init, "$lte": d_end}}):
         if post:
-            stations = post["data"]["stations"]
+            stations = post["data"]['stations']
             stationsConfiguration = stationsInfo.copy()
             for station in stations:
                 stationsConfiguration[station["_id"]]["bikes"] = station["dock_bikes"]
+                count_bikes += int(stationsConfiguration[station["_id"]]["bikes"])
     stations = functions.convertDictToList(stationsConfiguration)
     stationsConfiguration = Stations(stations)
+    stationsConfiguration.comprobar()
+    for i in range(0, 173):
+
+        stationsConfiguration.stations[i]["bikes"] = stationsConfiguration.stations[i]["capacity"] / 2
     with open("station_configuration.json", "w") as outfile:
         json.dump(stationsConfiguration, outfile, default=functions.jsonDefault, indent=4)
 
@@ -158,18 +164,18 @@ def analyticsData():
 startDate = dateutil.parser.parse(sys.argv[3])
 endDate = dateutil.parser.parse(sys.argv[4])
 stationsInfo = functions.readStationInfo(sys.argv[1])
-generateUserConfiguration(stationsInfo)
-#generateStationConfiguration([startDate.year, startDate.month, startDate.day,
-#                             startDate.hour, startDate.minute, startDate.second], stationsInfo)
+#generateUserConfiguration(stationsInfo)
+generateStationConfiguration([startDate.year, startDate.month, startDate.day,
+                             startDate.hour, startDate.minute, startDate.second], stationsInfo)
 
-demandMatrices = analyticsData()
-averageMatrices = demandMatrices.generateAverageMatrices()  # type: MatricesInfo
-averageArray = averageMatrices.arrayAverage()
-usersInstant = demandMatrices.matrixUsersStationByInstant()
-probability = demandMatrices.generateProbabilityMatrix(usersInstant)
-functions.writeFile(usersInstant, "matrixUsersStationByInstant.json")
-functions.writeFile(averageMatrices, "averageMatrix.json")
-functions.writeFile(probability, "probabilityMatrix.json")
+#demandMatrices = analyticsData()
+#averageMatrices = demandMatrices.generateAverageMatrices()  # type: MatricesInfo
+#averageArray = averageMatrices.arrayAverage()
+#usersInstant = demandMatrices.matrixUsersStationByInstant()
+#probability = demandMatrices.generateProbabilityMatrix(usersInstant)
+#functions.writeFile(usersInstant, "matrixUsersStationByInstant.json")
+#functions.writeFile(averageMatrices, "averageMatrix.json")
+#functions.writeFile(probability, "probabilityMatrix.json")
 
 
 print("termine")

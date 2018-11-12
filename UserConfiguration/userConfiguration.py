@@ -26,10 +26,14 @@ def determinateVelocityAndDistance(route, idInit, idEnd, position, destinationPl
             pointList.append(position)
             distance = GeoPosition.calculateDistancesByList(pointList)
             velocity = distance / route["travel_time"]
+            if velocity < 1:
+                velocity = 4
             return distance, velocity
         else:
             distance = position.distanceTo(destinationPlace)
             velocity = distance / route["travel_time"]
+            if velocity < 1:
+                velocity = 4
             return distance, velocity
     else:
         if route.has_key("track"):
@@ -43,6 +47,8 @@ def determinateVelocityAndDistance(route, idInit, idEnd, position, destinationPl
             pointList.append(position)
             distance = GeoPosition.calculateDistancesByList(pointList)
             velocity = distance / route["travel_time"]
+            if velocity < 1:
+                velocity = 4
             return distance, velocity
         else:
             velocity = 5
@@ -65,8 +71,8 @@ def determinateIntermediatePosition(position, route, parameters, distance):
 class UserConfigurationObj(object):
 
     def __init__(self, idInit, idEnd, parameters, stationsInfo, route):
-        self.position = randomizePosition(idInit, stationsInfo, 500)
-        self.destinationPlace = randomizePosition(idEnd, stationsInfo, 500)
+        self.position = randomizePosition(idInit, stationsInfo, 200)
+        self.destinationPlace = randomizePosition(idEnd, stationsInfo, 200)
         distance_velocity = determinateVelocityAndDistance(route, idInit, idEnd, self.position, self.destinationPlace)
         self.cyclingVelocity = distance_velocity[1]
         if idInit == idEnd:
