@@ -42,14 +42,18 @@ class MatricesInfo(object):
         return MatricesInfo(matrix_average_week, matrix_average_weekend)
 
     def matrixUsersStationByInstant(self):
-        matrix_week = Matrix()
-        matrix_weekend = Matrix()
+        matrix_week_unplug = Matrix()
+        matrix_weekend_unplug = Matrix()
+        matrix_week_plug = Matrix()
+        matrix_weekend_plug = Matrix()
         for i in range(0, NUM_STATIONS):
             for j in range(0, NUM_STATIONS):
                 for h in range(0, HOURS):
-                    matrix_week.matrices[i][h] += self.matrix_week.matrices[i][j][h]
-                    matrix_weekend.matrices[i][h] += self.matrix_weekend.matrices[i][j][h]
-        return MatricesInfo(matrix_week, matrix_weekend)
+                    matrix_week_unplug.matrices[i][h] += self.matrix_week.matrices[i][j][h]
+                    matrix_weekend_unplug.matrices[i][h] += self.matrix_weekend.matrices[i][j][h]
+                    matrix_week_plug.matrices[j][h] += self.matrix_week.matrices[i][j][h]
+                    matrix_weekend_plug.matrices[j][h] = self.matrix_weekend.matrices[i][j][h]
+        return MatricesInfo(matrix_week_unplug, matrix_weekend_unplug), MatricesInfo(matrix_week_plug, matrix_weekend_plug)
 
     def generateProbabilityMatrix(self, totalUsersMatrices):
         """

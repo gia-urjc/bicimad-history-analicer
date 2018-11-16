@@ -7,6 +7,8 @@ from Commons.constants import NUM_STATIONS
 from Functions import functions
 import Matrix_module
 from StationsConfiguration.stations import Stations
+from TimeSeriesData.ArrayTimeSeries import ArrayTimeSeries
+from TimeSeriesData.timeSeriesData import TimeSeriesData
 from UserConfiguration.initialUsers import initialUsers
 from UserConfiguration.userConfiguration import UserConfigurationObj
 from pymongo import MongoClient
@@ -73,7 +75,7 @@ def generateStationConfiguration(date, stationsInfo):
     stationsConfiguration = Stations(stations)
     stationsConfiguration.comprobar()
     for i in range(0, 173):
-
+    #   stationsConfiguration.stations[i]["capacity"] = stationsConfiguration.stations[i]["capacity"] / 2
         stationsConfiguration.stations[i]["bikes"] = stationsConfiguration.stations[i]["capacity"] / 2
     with open("station_configuration.json", "w") as outfile:
         json.dump(stationsConfiguration, outfile, default=functions.jsonDefault, indent=4)
@@ -135,7 +137,7 @@ def generateDemandMatrix(startDate, endDate, stationsInfo):
     demandMatrixWeek.matrices.pop(0)
     result = Matrix_module.MatricesInfo(demandMatrixWeek, demandMatrixWeekend)
     result.addCounters(counterDaysWeek, counterDaysWeekend, counterRegister_R)
-    with open("demandMatrix.json", "w") as outfile:
+    with open("results/demandMatrix.json", "w") as outfile:
         json.dump(result, outfile, default=functions.jsonDefault, indent=4)
     return result
 
@@ -159,23 +161,44 @@ def analyticsData():
 
     return demand_matrices
 
+def generateDataTimeSeries():
+    # auxiliar variables
+    list_files = os.listdir(sys.argv[2])  # read the path of the routes files
 
+    for filename in list_files:
+        if filename.endswith(".DS_Store"):
+            continue
+        splitFile = filename.split("_")
+        route_files = sys.argv[2] + "/"
+        result = functions.generateTimeSeriesData(route_files+filename)
+        returnValue_unplug = ArrayTimeSeries()
+        returnValue_plug = ArrayTimeSeries()
+        for item in result[0].values():
+            returnValue_unplug.array.append(item)
+        splitFile = filename.split("_")
+        functions.writeFile(returnValue_unplug, "results/"+splitFile[0]+"_unplug_TS.json")
+        for item in result[1].values():
+            returnValue_plug.array.append(item)
+        splitFile = filename.split("_")
+        functions.writeFile(returnValue_plug, "results/"+splitFile[0]+"_plug_TS.json")
+    return None
 # MAIN functions called
 startDate = dateutil.parser.parse(sys.argv[3])
 endDate = dateutil.parser.parse(sys.argv[4])
 stationsInfo = functions.readStationInfo(sys.argv[1])
+generateDataTimeSeries()
 #generateUserConfiguration(stationsInfo)
-generateStationConfiguration([startDate.year, startDate.month, startDate.day,
-                             startDate.hour, startDate.minute, startDate.second], stationsInfo)
+#generateStationConfiguration([startDate.year, startDate.month, startDate.day,
+#                             startDate.hour, startDate.minute, startDate.second], stationsInfo)
 
-#demandMatrices = analyticsData()
-#averageMatrices = demandMatrices.generateAverageMatrices()  # type: MatricesInfo
-#averageArray = averageMatrices.arrayAverage()
-#usersInstant = demandMatrices.matrixUsersStationByInstant()
-#probability = demandMatrices.generateProbabilityMatrix(usersInstant)
-#functions.writeFile(usersInstant, "matrixUsersStationByInstant.json")
-#functions.writeFile(averageMatrices, "averageMatrix.json")
-#functions.writeFile(probability, "probabilityMatrix.json")
-
+demandMatrices = analyticsData()
+averageMatrices = demandMatrices.generateAverageMatrices()  # type: MatricesInfo
+averageArray = averageMatrices.arrayAverage()
+usersInstant = demandMatrices.matrixUsersStationByInstant()
+probability = demandMatrices.generateProbabilityMatrix(usersInstant[0])
+functions.writeFile(usersInstant[0], "results/matrixUsersStationByInstant_unplug.json")
+functions.writeFile(usersInstant[1], "results/matrixUsersStationByInstant_plug.json")
+functions.writeFile(averageMatrices, "results/averageMatrix.json")
+functions.writeFile(probability, "results/probabilityMatrix.json")
 
 print("termine")
