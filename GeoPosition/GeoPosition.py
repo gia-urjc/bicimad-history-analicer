@@ -10,16 +10,32 @@ class GeoPosition(object):
         self.longitude = longitude
 
     def distanceTo(self, point):
+        """
+
+        :param point:
+        :return:
+        """
         f = [math.radians(self.latitude), math.radians(point.latitude)]
         l = [math.radians(self.longitude), math.radians(point.longitude)]
         h = self.haversine(f[1] - f[0]) + math.cos(f[0]) * math.cos(f[1]) * self.haversine(l[1] - l[0])
         return 2 * EARTH_RADIUS * math.asin(math.sqrt(h))
 
     def haversine(self, value):
+        """
+
+        :param value:
+        :return:
+        """
         return math.pow(math.sin(value / 2), 2)
 
     @classmethod
     def randomPointCircle(cls, origin, radius):
+        """
+
+        :param origin:
+        :param radius:
+        :return:
+        """
         # type: (object, object) -> object
         rangeMin = 0
         rangeMax = radius

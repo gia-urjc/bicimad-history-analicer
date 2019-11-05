@@ -1,0 +1,2276 @@
+[
+    {
+        "idInitialStation": 1,
+        "idEndStation": 1,
+        "num_bikes": 2,
+        "travelTime": 31
+    },
+    {
+        "idInitialStation": 1,
+        "idEndStation": 129,
+        "num_bikes": 1,
+        "travelTime": 227384
+    },
+    {
+        "idInitialStation": 1,
+        "idEndStation": 1,
+        "num_bikes": 1,
+        "travelTime": 23
+    },
+    {
+        "idInitialStation": 1,
+        "idEndStation": 111,
+        "num_bikes": 7,
+        "travelTime": 1238
+    },
+    {
+        "idInitialStation": 1,
+        "idEndStation": 1,
+        "num_bikes": 1,
+        "travelTime": 13
+    },
+    {
+        "idInitialStation": 2,
+        "idEndStation": 1,
+        "num_bikes": 1,
+        "travelTime": 55
+    },
+    {
+        "idInitialStation": 2,
+        "idEndStation": 2,
+        "num_bikes": 2,
+        "travelTime": 10
+    },
+    {
+        "idInitialStation": 2,
+        "idEndStation": 111,
+        "num_bikes": 3,
+        "travelTime": 843
+    },
+    {
+        "idInitialStation": 2,
+        "idEndStation": 112,
+        "num_bikes": 1,
+        "travelTime": 1879
+    },
+    {
+        "idInitialStation": 2,
+        "idEndStation": 113,
+        "num_bikes": 9,
+        "travelTime": 2258
+    },
+    {
+        "idInitialStation": 8,
+        "idEndStation": 8,
+        "num_bikes": 1,
+        "travelTime": 16
+    },
+    {
+        "idInitialStation": 9,
+        "idEndStation": 134,
+        "num_bikes": 1,
+        "travelTime": 2941
+    },
+    {
+        "idInitialStation": 9,
+        "idEndStation": 49,
+        "num_bikes": 3,
+        "travelTime": 3579
+    },
+    {
+        "idInitialStation": 9,
+        "idEndStation": 134,
+        "num_bikes": 4,
+        "travelTime": 2563
+    },
+    {
+        "idInitialStation": 9,
+        "idEndStation": 110,
+        "num_bikes": 10,
+        "travelTime": 1302
+    },
+    {
+        "idInitialStation": 10,
+        "idEndStation": 124,
+        "num_bikes": 4,
+        "travelTime": 675
+    },
+    {
+        "idInitialStation": 10,
+        "idEndStation": 123,
+        "num_bikes": 2,
+        "travelTime": 970
+    },
+    {
+        "idInitialStation": 10,
+        "idEndStation": 124,
+        "num_bikes": 2,
+        "travelTime": 1063
+    },
+    {
+        "idInitialStation": 10,
+        "idEndStation": 17,
+        "num_bikes": 2,
+        "travelTime": 2758
+    },
+    {
+        "idInitialStation": 14,
+        "idEndStation": 14,
+        "num_bikes": 5,
+        "travelTime": 4
+    },
+    {
+        "idInitialStation": 17,
+        "idEndStation": 17,
+        "num_bikes": 2,
+        "travelTime": 6
+    },
+    {
+        "idInitialStation": 25,
+        "idEndStation": 118,
+        "num_bikes": 7,
+        "travelTime": 957
+    },
+    {
+        "idInitialStation": 26,
+        "idEndStation": 117,
+        "num_bikes": 7,
+        "travelTime": 2218
+    },
+    {
+        "idInitialStation": 26,
+        "idEndStation": 116,
+        "num_bikes": 5,
+        "travelTime": 3222
+    },
+    {
+        "idInitialStation": 30,
+        "idEndStation": 30,
+        "num_bikes": 2,
+        "travelTime": 8
+    },
+    {
+        "idInitialStation": 31,
+        "idEndStation": 31,
+        "num_bikes": 2,
+        "travelTime": 6
+    },
+    {
+        "idInitialStation": 32,
+        "idEndStation": 32,
+        "num_bikes": 2,
+        "travelTime": 6
+    },
+    {
+        "idInitialStation": 35,
+        "idEndStation": 35,
+        "num_bikes": 2,
+        "travelTime": 8
+    },
+    {
+        "idInitialStation": 41,
+        "idEndStation": 34,
+        "num_bikes": 2,
+        "travelTime": 1811
+    },
+    {
+        "idInitialStation": 41,
+        "idEndStation": 27,
+        "num_bikes": 5,
+        "travelTime": 2704
+    },
+    {
+        "idInitialStation": 41,
+        "idEndStation": 109,
+        "num_bikes": 1,
+        "travelTime": 308217
+    },
+    {
+        "idInitialStation": 41,
+        "idEndStation": 41,
+        "num_bikes": 4,
+        "travelTime": 8
+    },
+    {
+        "idInitialStation": 41,
+        "idEndStation": 99,
+        "num_bikes": 5,
+        "travelTime": 1312
+    },
+    {
+        "idInitialStation": 41,
+        "idEndStation": 41,
+        "num_bikes": 1,
+        "travelTime": 75
+    },
+    {
+        "idInitialStation": 41,
+        "idEndStation": 74,
+        "num_bikes": 7,
+        "travelTime": 2762
+    },
+    {
+        "idInitialStation": 41,
+        "idEndStation": 91,
+        "num_bikes": 7,
+        "travelTime": 4267
+    },
+    {
+        "idInitialStation": 41,
+        "idEndStation": 110,
+        "num_bikes": 3,
+        "travelTime": 5470
+    },
+    {
+        "idInitialStation": 42,
+        "idEndStation": 34,
+        "num_bikes": 9,
+        "travelTime": 1016
+    },
+    {
+        "idInitialStation": 42,
+        "idEndStation": 42,
+        "num_bikes": 3,
+        "travelTime": 10
+    },
+    {
+        "idInitialStation": 43,
+        "idEndStation": 43,
+        "num_bikes": 1,
+        "travelTime": 7
+    },
+    {
+        "idInitialStation": 43,
+        "idEndStation": 90,
+        "num_bikes": 8,
+        "travelTime": 1491
+    },
+    {
+        "idInitialStation": 43,
+        "idEndStation": 74,
+        "num_bikes": 2,
+        "travelTime": 2197
+    },
+    {
+        "idInitialStation": 44,
+        "idEndStation": 44,
+        "num_bikes": 2,
+        "travelTime": 6
+    },
+    {
+        "idInitialStation": 45,
+        "idEndStation": 17,
+        "num_bikes": 3,
+        "travelTime": 5710
+    },
+    {
+        "idInitialStation": 45,
+        "idEndStation": 98,
+        "num_bikes": 6,
+        "travelTime": 7207
+    },
+    {
+        "idInitialStation": 49,
+        "idEndStation": 167,
+        "num_bikes": 8,
+        "travelTime": 4029
+    },
+    {
+        "idInitialStation": 49,
+        "idEndStation": 127,
+        "num_bikes": 1,
+        "travelTime": 64671
+    },
+    {
+        "idInitialStation": 49,
+        "idEndStation": 167,
+        "num_bikes": 1,
+        "travelTime": 3957
+    },
+    {
+        "idInitialStation": 49,
+        "idEndStation": 101,
+        "num_bikes": 10,
+        "travelTime": 3517
+    },
+    {
+        "idInitialStation": 49,
+        "idEndStation": 91,
+        "num_bikes": 10,
+        "travelTime": 1242
+    },
+    {
+        "idInitialStation": 49,
+        "idEndStation": 42,
+        "num_bikes": 1,
+        "travelTime": 53232
+    },
+    {
+        "idInitialStation": 49,
+        "idEndStation": 110,
+        "num_bikes": 6,
+        "travelTime": 6089
+    },
+    {
+        "idInitialStation": 50,
+        "idEndStation": 88,
+        "num_bikes": 4,
+        "travelTime": 7850
+    },
+    {
+        "idInitialStation": 50,
+        "idEndStation": 74,
+        "num_bikes": 5,
+        "travelTime": 6354
+    },
+    {
+        "idInitialStation": 50,
+        "idEndStation": 88,
+        "num_bikes": 3,
+        "travelTime": 7356
+    },
+    {
+        "idInitialStation": 50,
+        "idEndStation": 162,
+        "num_bikes": 9,
+        "travelTime": 1439
+    },
+    {
+        "idInitialStation": 51,
+        "idEndStation": 51,
+        "num_bikes": 1,
+        "travelTime": 10
+    },
+    {
+        "idInitialStation": 51,
+        "idEndStation": 8,
+        "num_bikes": 5,
+        "travelTime": 3928
+    },
+    {
+        "idInitialStation": 51,
+        "idEndStation": 58,
+        "num_bikes": 3,
+        "travelTime": 5302
+    },
+    {
+        "idInitialStation": 51,
+        "idEndStation": 51,
+        "num_bikes": 2,
+        "travelTime": 9
+    },
+    {
+        "idInitialStation": 52,
+        "idEndStation": 140,
+        "num_bikes": 6,
+        "travelTime": 1898
+    },
+    {
+        "idInitialStation": 53,
+        "idEndStation": 64,
+        "num_bikes": 10,
+        "travelTime": 3323
+    },
+    {
+        "idInitialStation": 54,
+        "idEndStation": 92,
+        "num_bikes": 4,
+        "travelTime": 3159
+    },
+    {
+        "idInitialStation": 54,
+        "idEndStation": 110,
+        "num_bikes": 6,
+        "travelTime": 4080
+    },
+    {
+        "idInitialStation": 54,
+        "idEndStation": 54,
+        "num_bikes": 1,
+        "travelTime": 22
+    },
+    {
+        "idInitialStation": 54,
+        "idEndStation": 128,
+        "num_bikes": 6,
+        "travelTime": 722
+    },
+    {
+        "idInitialStation": 55,
+        "idEndStation": 55,
+        "num_bikes": 1,
+        "travelTime": 25
+    },
+    {
+        "idInitialStation": 55,
+        "idEndStation": 108,
+        "num_bikes": 7,
+        "travelTime": 1320
+    },
+    {
+        "idInitialStation": 55,
+        "idEndStation": 92,
+        "num_bikes": 4,
+        "travelTime": 2314
+    },
+    {
+        "idInitialStation": 55,
+        "idEndStation": 58,
+        "num_bikes": 1,
+        "travelTime": 6064
+    },
+    {
+        "idInitialStation": 55,
+        "idEndStation": 12,
+        "num_bikes": 6,
+        "travelTime": 6407
+    },
+    {
+        "idInitialStation": 57,
+        "idEndStation": 57,
+        "num_bikes": 1,
+        "travelTime": 13
+    },
+    {
+        "idInitialStation": 57,
+        "idEndStation": 115,
+        "num_bikes": 10,
+        "travelTime": 4929
+    },
+    {
+        "idInitialStation": 57,
+        "idEndStation": 159,
+        "num_bikes": 9,
+        "travelTime": 3321
+    },
+    {
+        "idInitialStation": 58,
+        "idEndStation": 58,
+        "num_bikes": 4,
+        "travelTime": 2
+    },
+    {
+        "idInitialStation": 61,
+        "idEndStation": 53,
+        "num_bikes": 3,
+        "travelTime": 1719
+    },
+    {
+        "idInitialStation": 64,
+        "idEndStation": 64,
+        "num_bikes": 1,
+        "travelTime": 21
+    },
+    {
+        "idInitialStation": 64,
+        "idEndStation": 50,
+        "num_bikes": 8,
+        "travelTime": 1550
+    },
+    {
+        "idInitialStation": 64,
+        "idEndStation": 43,
+        "num_bikes": 3,
+        "travelTime": 3059
+    },
+    {
+        "idInitialStation": 64,
+        "idEndStation": 75,
+        "num_bikes": 2,
+        "travelTime": 4718
+    },
+    {
+        "idInitialStation": 64,
+        "idEndStation": 89,
+        "num_bikes": 5,
+        "travelTime": 5315
+    },
+    {
+        "idInitialStation": 64,
+        "idEndStation": 81,
+        "num_bikes": 5,
+        "travelTime": 6515
+    },
+    {
+        "idInitialStation": 64,
+        "idEndStation": 64,
+        "num_bikes": 1,
+        "travelTime": 8
+    },
+    {
+        "idInitialStation": 64,
+        "idEndStation": 122,
+        "num_bikes": 4,
+        "travelTime": 4221
+    },
+    {
+        "idInitialStation": 64,
+        "idEndStation": 119,
+        "num_bikes": 2,
+        "travelTime": 2150
+    },
+    {
+        "idInitialStation": 64,
+        "idEndStation": 120,
+        "num_bikes": 5,
+        "travelTime": 3484
+    },
+    {
+        "idInitialStation": 64,
+        "idEndStation": 122,
+        "num_bikes": 2,
+        "travelTime": 4137
+    },
+    {
+        "idInitialStation": 64,
+        "idEndStation": 92,
+        "num_bikes": 8,
+        "travelTime": 1213
+    },
+    {
+        "idInitialStation": 64,
+        "idEndStation": 110,
+        "num_bikes": 8,
+        "travelTime": 2443
+    },
+    {
+        "idInitialStation": 64,
+        "idEndStation": 134,
+        "num_bikes": 1,
+        "travelTime": 128985
+    },
+    {
+        "idInitialStation": 65,
+        "idEndStation": 104,
+        "num_bikes": 3,
+        "travelTime": 1808
+    },
+    {
+        "idInitialStation": 65,
+        "idEndStation": 76,
+        "num_bikes": 9,
+        "travelTime": 2378
+    },
+    {
+        "idInitialStation": 66,
+        "idEndStation": 66,
+        "num_bikes": 2,
+        "travelTime": 8
+    },
+    {
+        "idInitialStation": 66,
+        "idEndStation": 104,
+        "num_bikes": 8,
+        "travelTime": 1196
+    },
+    {
+        "idInitialStation": 66,
+        "idEndStation": 66,
+        "num_bikes": 2,
+        "travelTime": 5
+    },
+    {
+        "idInitialStation": 69,
+        "idEndStation": 43,
+        "num_bikes": 5,
+        "travelTime": 3771
+    },
+    {
+        "idInitialStation": 69,
+        "idEndStation": 79,
+        "num_bikes": 5,
+        "travelTime": 5804
+    },
+    {
+        "idInitialStation": 69,
+        "idEndStation": 128,
+        "num_bikes": 4,
+        "travelTime": 7091
+    },
+    {
+        "idInitialStation": 69,
+        "idEndStation": 69,
+        "num_bikes": 1,
+        "travelTime": 9
+    },
+    {
+        "idInitialStation": 71,
+        "idEndStation": 128,
+        "num_bikes": 1,
+        "travelTime": 2559
+    },
+    {
+        "idInitialStation": 71,
+        "idEndStation": 136,
+        "num_bikes": 6,
+        "travelTime": 3308
+    },
+    {
+        "idInitialStation": 72,
+        "idEndStation": 82,
+        "num_bikes": 7,
+        "travelTime": 5632
+    },
+    {
+        "idInitialStation": 73,
+        "idEndStation": 175,
+        "num_bikes": 10,
+        "travelTime": 3004
+    },
+    {
+        "idInitialStation": 74,
+        "idEndStation": 74,
+        "num_bikes": 1,
+        "travelTime": 7
+    },
+    {
+        "idInitialStation": 74,
+        "idEndStation": 75,
+        "num_bikes": 1,
+        "travelTime": 149
+    },
+    {
+        "idInitialStation": 74,
+        "idEndStation": 27,
+        "num_bikes": 6,
+        "travelTime": 7503
+    },
+    {
+        "idInitialStation": 75,
+        "idEndStation": 75,
+        "num_bikes": 3,
+        "travelTime": 11
+    },
+    {
+        "idInitialStation": 75,
+        "idEndStation": 88,
+        "num_bikes": 1,
+        "travelTime": 115
+    },
+    {
+        "idInitialStation": 75,
+        "idEndStation": 75,
+        "num_bikes": 1,
+        "travelTime": 17
+    },
+    {
+        "idInitialStation": 75,
+        "idEndStation": 111,
+        "num_bikes": 1,
+        "travelTime": 1461
+    },
+    {
+        "idInitialStation": 75,
+        "idEndStation": 112,
+        "num_bikes": 11,
+        "travelTime": 1592
+    },
+    {
+        "idInitialStation": 75,
+        "idEndStation": 95,
+        "num_bikes": 7,
+        "travelTime": 3344
+    },
+    {
+        "idInitialStation": 75,
+        "idEndStation": 75,
+        "num_bikes": 1,
+        "travelTime": 12
+    },
+    {
+        "idInitialStation": 75,
+        "idEndStation": 34,
+        "num_bikes": 4,
+        "travelTime": 5325
+    },
+    {
+        "idInitialStation": 75,
+        "idEndStation": 27,
+        "num_bikes": 3,
+        "travelTime": 6557
+    },
+    {
+        "idInitialStation": 76,
+        "idEndStation": 111,
+        "num_bikes": 7,
+        "travelTime": 933
+    },
+    {
+        "idInitialStation": 76,
+        "idEndStation": 95,
+        "num_bikes": 6,
+        "travelTime": 1709
+    },
+    {
+        "idInitialStation": 76,
+        "idEndStation": 92,
+        "num_bikes": 1,
+        "travelTime": 4201
+    },
+    {
+        "idInitialStation": 76,
+        "idEndStation": 76,
+        "num_bikes": 5,
+        "travelTime": 8
+    },
+    {
+        "idInitialStation": 77,
+        "idEndStation": 167,
+        "num_bikes": 6,
+        "travelTime": 1306
+    },
+    {
+        "idInitialStation": 77,
+        "idEndStation": 93,
+        "num_bikes": 11,
+        "travelTime": 717
+    },
+    {
+        "idInitialStation": 77,
+        "idEndStation": 105,
+        "num_bikes": 1,
+        "travelTime": 1453
+    },
+    {
+        "idInitialStation": 77,
+        "idEndStation": 103,
+        "num_bikes": 9,
+        "travelTime": 1615
+    },
+    {
+        "idInitialStation": 77,
+        "idEndStation": 77,
+        "num_bikes": 4,
+        "travelTime": 4
+    },
+    {
+        "idInitialStation": 77,
+        "idEndStation": 34,
+        "num_bikes": 5,
+        "travelTime": 1784
+    },
+    {
+        "idInitialStation": 77,
+        "idEndStation": 59,
+        "num_bikes": 6,
+        "travelTime": 1514
+    },
+    {
+        "idInitialStation": 77,
+        "idEndStation": 20,
+        "num_bikes": 1,
+        "travelTime": 2756
+    },
+    {
+        "idInitialStation": 77,
+        "idEndStation": 13,
+        "num_bikes": 1,
+        "travelTime": 10929
+    },
+    {
+        "idInitialStation": 78,
+        "idEndStation": 79,
+        "num_bikes": 1,
+        "travelTime": 228
+    },
+    {
+        "idInitialStation": 78,
+        "idEndStation": 78,
+        "num_bikes": 1,
+        "travelTime": 2
+    },
+    {
+        "idInitialStation": 78,
+        "idEndStation": 42,
+        "num_bikes": 4,
+        "travelTime": 3704
+    },
+    {
+        "idInitialStation": 78,
+        "idEndStation": 43,
+        "num_bikes": 3,
+        "travelTime": 4259
+    },
+    {
+        "idInitialStation": 79,
+        "idEndStation": 95,
+        "num_bikes": 12,
+        "travelTime": 1356
+    },
+    {
+        "idInitialStation": 79,
+        "idEndStation": 166,
+        "num_bikes": 7,
+        "travelTime": 5111
+    },
+    {
+        "idInitialStation": 79,
+        "idEndStation": 29,
+        "num_bikes": 10,
+        "travelTime": 1778
+    },
+    {
+        "idInitialStation": 79,
+        "idEndStation": 28,
+        "num_bikes": 1,
+        "travelTime": 2321
+    },
+    {
+        "idInitialStation": 80,
+        "idEndStation": 80,
+        "num_bikes": 1,
+        "travelTime": 78
+    },
+    {
+        "idInitialStation": 80,
+        "idEndStation": 110,
+        "num_bikes": 4,
+        "travelTime": 3026
+    },
+    {
+        "idInitialStation": 80,
+        "idEndStation": 109,
+        "num_bikes": 1,
+        "travelTime": 2314
+    },
+    {
+        "idInitialStation": 80,
+        "idEndStation": 110,
+        "num_bikes": 5,
+        "travelTime": 2561
+    },
+    {
+        "idInitialStation": 80,
+        "idEndStation": 80,
+        "num_bikes": 1,
+        "travelTime": 11
+    },
+    {
+        "idInitialStation": 81,
+        "idEndStation": 17,
+        "num_bikes": 6,
+        "travelTime": 3864
+    },
+    {
+        "idInitialStation": 81,
+        "idEndStation": 21,
+        "num_bikes": 8,
+        "travelTime": 1207
+    },
+    {
+        "idInitialStation": 81,
+        "idEndStation": 32,
+        "num_bikes": 7,
+        "travelTime": 2813
+    },
+    {
+        "idInitialStation": 82,
+        "idEndStation": 13,
+        "num_bikes": 5,
+        "travelTime": 1464
+    },
+    {
+        "idInitialStation": 82,
+        "idEndStation": 109,
+        "num_bikes": 7,
+        "travelTime": 934
+    },
+    {
+        "idInitialStation": 82,
+        "idEndStation": 108,
+        "num_bikes": 7,
+        "travelTime": 2037
+    },
+    {
+        "idInitialStation": 82,
+        "idEndStation": 126,
+        "num_bikes": 1,
+        "travelTime": 1664
+    },
+    {
+        "idInitialStation": 82,
+        "idEndStation": 127,
+        "num_bikes": 7,
+        "travelTime": 2043
+    },
+    {
+        "idInitialStation": 82,
+        "idEndStation": 107,
+        "num_bikes": 5,
+        "travelTime": 1402
+    },
+    {
+        "idInitialStation": 82,
+        "idEndStation": 100,
+        "num_bikes": 2,
+        "travelTime": 2450
+    },
+    {
+        "idInitialStation": 82,
+        "idEndStation": 61,
+        "num_bikes": 6,
+        "travelTime": 2453
+    },
+    {
+        "idInitialStation": 82,
+        "idEndStation": 92,
+        "num_bikes": 3,
+        "travelTime": 5107
+    },
+    {
+        "idInitialStation": 82,
+        "idEndStation": 4,
+        "num_bikes": 6,
+        "travelTime": 6383
+    },
+    {
+        "idInitialStation": 82,
+        "idEndStation": 82,
+        "num_bikes": 3,
+        "travelTime": 4
+    },
+    {
+        "idInitialStation": 83,
+        "idEndStation": 167,
+        "num_bikes": 3,
+        "travelTime": 2617
+    },
+    {
+        "idInitialStation": 83,
+        "idEndStation": 151,
+        "num_bikes": 9,
+        "travelTime": 3238
+    },
+    {
+        "idInitialStation": 83,
+        "idEndStation": 95,
+        "num_bikes": 7,
+        "travelTime": 807
+    },
+    {
+        "idInitialStation": 83,
+        "idEndStation": 100,
+        "num_bikes": 4,
+        "travelTime": 3338
+    },
+    {
+        "idInitialStation": 83,
+        "idEndStation": 97,
+        "num_bikes": 5,
+        "travelTime": 3778
+    },
+    {
+        "idInitialStation": 83,
+        "idEndStation": 1,
+        "num_bikes": 6,
+        "travelTime": 725
+    },
+    {
+        "idInitialStation": 83,
+        "idEndStation": 2,
+        "num_bikes": 2,
+        "travelTime": 1147
+    },
+    {
+        "idInitialStation": 83,
+        "idEndStation": 1,
+        "num_bikes": 1,
+        "travelTime": 671
+    },
+    {
+        "idInitialStation": 83,
+        "idEndStation": 83,
+        "num_bikes": 2,
+        "travelTime": 7
+    },
+    {
+        "idInitialStation": 84,
+        "idEndStation": 109,
+        "num_bikes": 4,
+        "travelTime": 3061
+    },
+    {
+        "idInitialStation": 84,
+        "idEndStation": 130,
+        "num_bikes": 1,
+        "travelTime": 801
+    },
+    {
+        "idInitialStation": 85,
+        "idEndStation": 91,
+        "num_bikes": 7,
+        "travelTime": 1323
+    },
+    {
+        "idInitialStation": 85,
+        "idEndStation": 109,
+        "num_bikes": 1,
+        "travelTime": 3791
+    },
+    {
+        "idInitialStation": 85,
+        "idEndStation": 155,
+        "num_bikes": 2,
+        "travelTime": 1136
+    },
+    {
+        "idInitialStation": 85,
+        "idEndStation": 172,
+        "num_bikes": 5,
+        "travelTime": 1899
+    },
+    {
+        "idInitialStation": 85,
+        "idEndStation": 130,
+        "num_bikes": 7,
+        "travelTime": 1000
+    },
+    {
+        "idInitialStation": 85,
+        "idEndStation": 13,
+        "num_bikes": 8,
+        "travelTime": 2101
+    },
+    {
+        "idInitialStation": 87,
+        "idEndStation": 105,
+        "num_bikes": 7,
+        "travelTime": 541
+    },
+    {
+        "idInitialStation": 88,
+        "idEndStation": 78,
+        "num_bikes": 1,
+        "travelTime": 144
+    },
+    {
+        "idInitialStation": 89,
+        "idEndStation": 89,
+        "num_bikes": 1,
+        "travelTime": 65
+    },
+    {
+        "idInitialStation": 89,
+        "idEndStation": 1,
+        "num_bikes": 1,
+        "travelTime": 1424
+    },
+    {
+        "idInitialStation": 89,
+        "idEndStation": 13,
+        "num_bikes": 3,
+        "travelTime": 2181
+    },
+    {
+        "idInitialStation": 89,
+        "idEndStation": 17,
+        "num_bikes": 3,
+        "travelTime": 2933
+    },
+    {
+        "idInitialStation": 89,
+        "idEndStation": 126,
+        "num_bikes": 9,
+        "travelTime": 910
+    },
+    {
+        "idInitialStation": 89,
+        "idEndStation": 61,
+        "num_bikes": 7,
+        "travelTime": 1898
+    },
+    {
+        "idInitialStation": 89,
+        "idEndStation": 89,
+        "num_bikes": 5,
+        "travelTime": 7
+    },
+    {
+        "idInitialStation": 90,
+        "idEndStation": 90,
+        "num_bikes": 2,
+        "travelTime": 4
+    },
+    {
+        "idInitialStation": 90,
+        "idEndStation": 74,
+        "num_bikes": 1,
+        "travelTime": 444
+    },
+    {
+        "idInitialStation": 90,
+        "idEndStation": 90,
+        "num_bikes": 1,
+        "travelTime": 3
+    },
+    {
+        "idInitialStation": 90,
+        "idEndStation": 43,
+        "num_bikes": 2,
+        "travelTime": 4884
+    },
+    {
+        "idInitialStation": 90,
+        "idEndStation": 41,
+        "num_bikes": 3,
+        "travelTime": 5089
+    },
+    {
+        "idInitialStation": 91,
+        "idEndStation": 80,
+        "num_bikes": 6,
+        "travelTime": 4085
+    },
+    {
+        "idInitialStation": 91,
+        "idEndStation": 79,
+        "num_bikes": 2,
+        "travelTime": 5457
+    },
+    {
+        "idInitialStation": 93,
+        "idEndStation": 93,
+        "num_bikes": 1,
+        "travelTime": 10
+    },
+    {
+        "idInitialStation": 93,
+        "idEndStation": 83,
+        "num_bikes": 10,
+        "travelTime": 4351
+    },
+    {
+        "idInitialStation": 93,
+        "idEndStation": 128,
+        "num_bikes": 5,
+        "travelTime": 3154
+    },
+    {
+        "idInitialStation": 93,
+        "idEndStation": 133,
+        "num_bikes": 5,
+        "travelTime": 4333
+    },
+    {
+        "idInitialStation": 93,
+        "idEndStation": 93,
+        "num_bikes": 1,
+        "travelTime": 19
+    },
+    {
+        "idInitialStation": 95,
+        "idEndStation": 95,
+        "num_bikes": 1,
+        "travelTime": 12
+    },
+    {
+        "idInitialStation": 95,
+        "idEndStation": 78,
+        "num_bikes": 11,
+        "travelTime": 1888
+    },
+    {
+        "idInitialStation": 95,
+        "idEndStation": 95,
+        "num_bikes": 8,
+        "travelTime": 7
+    },
+    {
+        "idInitialStation": 95,
+        "idEndStation": 50,
+        "num_bikes": 11,
+        "travelTime": 2147
+    },
+    {
+        "idInitialStation": 96,
+        "idEndStation": 96,
+        "num_bikes": 1,
+        "travelTime": 47
+    },
+    {
+        "idInitialStation": 97,
+        "idEndStation": 126,
+        "num_bikes": 6,
+        "travelTime": 2015
+    },
+    {
+        "idInitialStation": 99,
+        "idEndStation": 99,
+        "num_bikes": 3,
+        "travelTime": 21
+    },
+    {
+        "idInitialStation": 102,
+        "idEndStation": 102,
+        "num_bikes": 1,
+        "travelTime": 10
+    },
+    {
+        "idInitialStation": 102,
+        "idEndStation": 90,
+        "num_bikes": 1,
+        "travelTime": 233
+    },
+    {
+        "idInitialStation": 108,
+        "idEndStation": 75,
+        "num_bikes": 11,
+        "travelTime": 854
+    },
+    {
+        "idInitialStation": 108,
+        "idEndStation": 77,
+        "num_bikes": 8,
+        "travelTime": 2419
+    },
+    {
+        "idInitialStation": 108,
+        "idEndStation": 119,
+        "num_bikes": 5,
+        "travelTime": 1277
+    },
+    {
+        "idInitialStation": 109,
+        "idEndStation": 168,
+        "num_bikes": 7,
+        "travelTime": 1998
+    },
+    {
+        "idInitialStation": 109,
+        "idEndStation": 109,
+        "num_bikes": 1,
+        "travelTime": 14
+    },
+    {
+        "idInitialStation": 109,
+        "idEndStation": 81,
+        "num_bikes": 2,
+        "travelTime": 4846
+    },
+    {
+        "idInitialStation": 109,
+        "idEndStation": 172,
+        "num_bikes": 6,
+        "travelTime": 6728
+    },
+    {
+        "idInitialStation": 110,
+        "idEndStation": 74,
+        "num_bikes": 6,
+        "travelTime": 620
+    },
+    {
+        "idInitialStation": 110,
+        "idEndStation": 78,
+        "num_bikes": 1,
+        "travelTime": 1059
+    },
+    {
+        "idInitialStation": 110,
+        "idEndStation": 87,
+        "num_bikes": 4,
+        "travelTime": 3282
+    },
+    {
+        "idInitialStation": 110,
+        "idEndStation": 75,
+        "num_bikes": 2,
+        "travelTime": 3939
+    },
+    {
+        "idInitialStation": 110,
+        "idEndStation": 110,
+        "num_bikes": 1,
+        "travelTime": 8
+    },
+    {
+        "idInitialStation": 110,
+        "idEndStation": 83,
+        "num_bikes": 9,
+        "travelTime": 918
+    },
+    {
+        "idInitialStation": 110,
+        "idEndStation": 126,
+        "num_bikes": 2,
+        "travelTime": 1737
+    },
+    {
+        "idInitialStation": 110,
+        "idEndStation": 110,
+        "num_bikes": 1,
+        "travelTime": 71
+    },
+    {
+        "idInitialStation": 113,
+        "idEndStation": 113,
+        "num_bikes": 1,
+        "travelTime": 11
+    },
+    {
+        "idInitialStation": 113,
+        "idEndStation": 79,
+        "num_bikes": 8,
+        "travelTime": 916
+    },
+    {
+        "idInitialStation": 113,
+        "idEndStation": 82,
+        "num_bikes": 2,
+        "travelTime": 2002
+    },
+    {
+        "idInitialStation": 116,
+        "idEndStation": 145,
+        "num_bikes": 9,
+        "travelTime": 1318
+    },
+    {
+        "idInitialStation": 116,
+        "idEndStation": 143,
+        "num_bikes": 2,
+        "travelTime": 2843
+    },
+    {
+        "idInitialStation": 117,
+        "idEndStation": 158,
+        "num_bikes": 7,
+        "travelTime": 1221
+    },
+    {
+        "idInitialStation": 118,
+        "idEndStation": 149,
+        "num_bikes": 5,
+        "travelTime": 4882
+    },
+    {
+        "idInitialStation": 118,
+        "idEndStation": 158,
+        "num_bikes": 3,
+        "travelTime": 2478
+    },
+    {
+        "idInitialStation": 118,
+        "idEndStation": 149,
+        "num_bikes": 1,
+        "travelTime": 4879
+    },
+    {
+        "idInitialStation": 122,
+        "idEndStation": 52,
+        "num_bikes": 1,
+        "travelTime": 3475
+    },
+    {
+        "idInitialStation": 122,
+        "idEndStation": 41,
+        "num_bikes": 5,
+        "travelTime": 4304
+    },
+    {
+        "idInitialStation": 123,
+        "idEndStation": 123,
+        "num_bikes": 1,
+        "travelTime": 92
+    },
+    {
+        "idInitialStation": 123,
+        "idEndStation": 75,
+        "num_bikes": 1,
+        "travelTime": 123707
+    },
+    {
+        "idInitialStation": 126,
+        "idEndStation": 108,
+        "num_bikes": 3,
+        "travelTime": 4582
+    },
+    {
+        "idInitialStation": 126,
+        "idEndStation": 11,
+        "num_bikes": 1,
+        "travelTime": 2320
+    },
+    {
+        "idInitialStation": 126,
+        "idEndStation": 31,
+        "num_bikes": 3,
+        "travelTime": 2753
+    },
+    {
+        "idInitialStation": 127,
+        "idEndStation": 127,
+        "num_bikes": 1,
+        "travelTime": 70
+    },
+    {
+        "idInitialStation": 127,
+        "idEndStation": 108,
+        "num_bikes": 5,
+        "travelTime": 3496
+    },
+    {
+        "idInitialStation": 127,
+        "idEndStation": 127,
+        "num_bikes": 1,
+        "travelTime": 12
+    },
+    {
+        "idInitialStation": 127,
+        "idEndStation": 11,
+        "num_bikes": 9,
+        "travelTime": 1009
+    },
+    {
+        "idInitialStation": 128,
+        "idEndStation": 112,
+        "num_bikes": 4,
+        "travelTime": 1221
+    },
+    {
+        "idInitialStation": 128,
+        "idEndStation": 111,
+        "num_bikes": 2,
+        "travelTime": 1501
+    },
+    {
+        "idInitialStation": 128,
+        "idEndStation": 112,
+        "num_bikes": 1,
+        "travelTime": 1636
+    },
+    {
+        "idInitialStation": 128,
+        "idEndStation": 111,
+        "num_bikes": 1,
+        "travelTime": 1702
+    },
+    {
+        "idInitialStation": 128,
+        "idEndStation": 113,
+        "num_bikes": 3,
+        "travelTime": 1889
+    },
+    {
+        "idInitialStation": 128,
+        "idEndStation": 118,
+        "num_bikes": 7,
+        "travelTime": 1500
+    },
+    {
+        "idInitialStation": 128,
+        "idEndStation": 133,
+        "num_bikes": 1,
+        "travelTime": 722
+    },
+    {
+        "idInitialStation": 128,
+        "idEndStation": 99,
+        "num_bikes": 4,
+        "travelTime": 1334
+    },
+    {
+        "idInitialStation": 128,
+        "idEndStation": 5,
+        "num_bikes": 6,
+        "travelTime": 2626
+    },
+    {
+        "idInitialStation": 128,
+        "idEndStation": 8,
+        "num_bikes": 4,
+        "travelTime": 2952
+    },
+    {
+        "idInitialStation": 129,
+        "idEndStation": 98,
+        "num_bikes": 11,
+        "travelTime": 1113
+    },
+    {
+        "idInitialStation": 129,
+        "idEndStation": 93,
+        "num_bikes": 8,
+        "travelTime": 3019
+    },
+    {
+        "idInitialStation": 129,
+        "idEndStation": 129,
+        "num_bikes": 1,
+        "travelTime": 13
+    },
+    {
+        "idInitialStation": 129,
+        "idEndStation": 158,
+        "num_bikes": 7,
+        "travelTime": 3264
+    },
+    {
+        "idInitialStation": 129,
+        "idEndStation": 151,
+        "num_bikes": 7,
+        "travelTime": 1192
+    },
+    {
+        "idInitialStation": 129,
+        "idEndStation": 147,
+        "num_bikes": 7,
+        "travelTime": 1833
+    },
+    {
+        "idInitialStation": 129,
+        "idEndStation": 167,
+        "num_bikes": 9,
+        "travelTime": 1365
+    },
+    {
+        "idInitialStation": 129,
+        "idEndStation": 154,
+        "num_bikes": 5,
+        "travelTime": 1193
+    },
+    {
+        "idInitialStation": 129,
+        "idEndStation": 167,
+        "num_bikes": 1,
+        "travelTime": 56680
+    },
+    {
+        "idInitialStation": 130,
+        "idEndStation": 49,
+        "num_bikes": 9,
+        "travelTime": 4381
+    },
+    {
+        "idInitialStation": 130,
+        "idEndStation": 53,
+        "num_bikes": 1,
+        "travelTime": 12391
+    },
+    {
+        "idInitialStation": 130,
+        "idEndStation": 130,
+        "num_bikes": 2,
+        "travelTime": 4
+    },
+    {
+        "idInitialStation": 131,
+        "idEndStation": 53,
+        "num_bikes": 2,
+        "travelTime": 2125
+    },
+    {
+        "idInitialStation": 131,
+        "idEndStation": 52,
+        "num_bikes": 4,
+        "travelTime": 2510
+    },
+    {
+        "idInitialStation": 132,
+        "idEndStation": 132,
+        "num_bikes": 2,
+        "travelTime": 3
+    },
+    {
+        "idInitialStation": 132,
+        "idEndStation": 91,
+        "num_bikes": 5,
+        "travelTime": 1574
+    },
+    {
+        "idInitialStation": 132,
+        "idEndStation": 69,
+        "num_bikes": 8,
+        "travelTime": 2323
+    },
+    {
+        "idInitialStation": 132,
+        "idEndStation": 91,
+        "num_bikes": 6,
+        "travelTime": 1228
+    },
+    {
+        "idInitialStation": 132,
+        "idEndStation": 108,
+        "num_bikes": 5,
+        "travelTime": 6170
+    },
+    {
+        "idInitialStation": 132,
+        "idEndStation": 166,
+        "num_bikes": 6,
+        "travelTime": 7202
+    },
+    {
+        "idInitialStation": 132,
+        "idEndStation": 144,
+        "num_bikes": 8,
+        "travelTime": 1718
+    },
+    {
+        "idInitialStation": 132,
+        "idEndStation": 51,
+        "num_bikes": 8,
+        "travelTime": 1571
+    },
+    {
+        "idInitialStation": 132,
+        "idEndStation": 129,
+        "num_bikes": 6,
+        "travelTime": 3039
+    },
+    {
+        "idInitialStation": 132,
+        "idEndStation": 132,
+        "num_bikes": 1,
+        "travelTime": 16
+    },
+    {
+        "idInitialStation": 132,
+        "idEndStation": 135,
+        "num_bikes": 2,
+        "travelTime": 1531
+    },
+    {
+        "idInitialStation": 133,
+        "idEndStation": 90,
+        "num_bikes": 7,
+        "travelTime": 4755
+    },
+    {
+        "idInitialStation": 133,
+        "idEndStation": 74,
+        "num_bikes": 2,
+        "travelTime": 5813
+    },
+    {
+        "idInitialStation": 133,
+        "idEndStation": 110,
+        "num_bikes": 8,
+        "travelTime": 4808
+    },
+    {
+        "idInitialStation": 133,
+        "idEndStation": 148,
+        "num_bikes": 3,
+        "travelTime": 4678
+    },
+    {
+        "idInitialStation": 133,
+        "idEndStation": 162,
+        "num_bikes": 4,
+        "travelTime": 5613
+    },
+    {
+        "idInitialStation": 133,
+        "idEndStation": 148,
+        "num_bikes": 2,
+        "travelTime": 4531
+    },
+    {
+        "idInitialStation": 133,
+        "idEndStation": 133,
+        "num_bikes": 1,
+        "travelTime": 14
+    },
+    {
+        "idInitialStation": 134,
+        "idEndStation": 69,
+        "num_bikes": 10,
+        "travelTime": 6054
+    },
+    {
+        "idInitialStation": 135,
+        "idEndStation": 7,
+        "num_bikes": 5,
+        "travelTime": 1605
+    },
+    {
+        "idInitialStation": 135,
+        "idEndStation": 8,
+        "num_bikes": 5,
+        "travelTime": 2243
+    },
+    {
+        "idInitialStation": 135,
+        "idEndStation": 9,
+        "num_bikes": 6,
+        "travelTime": 2892
+    },
+    {
+        "idInitialStation": 135,
+        "idEndStation": 135,
+        "num_bikes": 2,
+        "travelTime": 52
+    },
+    {
+        "idInitialStation": 135,
+        "idEndStation": 154,
+        "num_bikes": 9,
+        "travelTime": 1627
+    },
+    {
+        "idInitialStation": 135,
+        "idEndStation": 158,
+        "num_bikes": 1,
+        "travelTime": 2516
+    },
+    {
+        "idInitialStation": 135,
+        "idEndStation": 93,
+        "num_bikes": 1,
+        "travelTime": 1666
+    },
+    {
+        "idInitialStation": 135,
+        "idEndStation": 162,
+        "num_bikes": 11,
+        "travelTime": 1939
+    },
+    {
+        "idInitialStation": 135,
+        "idEndStation": 72,
+        "num_bikes": 5,
+        "travelTime": 973
+    },
+    {
+        "idInitialStation": 135,
+        "idEndStation": 152,
+        "num_bikes": 8,
+        "travelTime": 2294
+    },
+    {
+        "idInitialStation": 135,
+        "idEndStation": 148,
+        "num_bikes": 2,
+        "travelTime": 3513
+    },
+    {
+        "idInitialStation": 135,
+        "idEndStation": 12,
+        "num_bikes": 7,
+        "travelTime": 1658
+    },
+    {
+        "idInitialStation": 135,
+        "idEndStation": 174,
+        "num_bikes": 4,
+        "travelTime": 1471
+    },
+    {
+        "idInitialStation": 135,
+        "idEndStation": 132,
+        "num_bikes": 2,
+        "travelTime": 3689
+    },
+    {
+        "idInitialStation": 136,
+        "idEndStation": 118,
+        "num_bikes": 4,
+        "travelTime": 2948
+    },
+    {
+        "idInitialStation": 136,
+        "idEndStation": 117,
+        "num_bikes": 8,
+        "travelTime": 3408
+    },
+    {
+        "idInitialStation": 136,
+        "idEndStation": 151,
+        "num_bikes": 5,
+        "travelTime": 2100
+    },
+    {
+        "idInitialStation": 136,
+        "idEndStation": 113,
+        "num_bikes": 6,
+        "travelTime": 3180
+    },
+    {
+        "idInitialStation": 136,
+        "idEndStation": 93,
+        "num_bikes": 9,
+        "travelTime": 1031
+    },
+    {
+        "idInitialStation": 136,
+        "idEndStation": 154,
+        "num_bikes": 5,
+        "travelTime": 1540
+    },
+    {
+        "idInitialStation": 136,
+        "idEndStation": 153,
+        "num_bikes": 1,
+        "travelTime": 2081
+    },
+    {
+        "idInitialStation": 136,
+        "idEndStation": 31,
+        "num_bikes": 7,
+        "travelTime": 3722
+    },
+    {
+        "idInitialStation": 137,
+        "idEndStation": 139,
+        "num_bikes": 7,
+        "travelTime": 499
+    },
+    {
+        "idInitialStation": 139,
+        "idEndStation": 156,
+        "num_bikes": 8,
+        "travelTime": 1182
+    },
+    {
+        "idInitialStation": 139,
+        "idEndStation": 139,
+        "num_bikes": 1,
+        "travelTime": 29
+    },
+    {
+        "idInitialStation": 139,
+        "idEndStation": 132,
+        "num_bikes": 3,
+        "travelTime": 3999
+    },
+    {
+        "idInitialStation": 139,
+        "idEndStation": 6,
+        "num_bikes": 1,
+        "travelTime": 912
+    },
+    {
+        "idInitialStation": 139,
+        "idEndStation": 143,
+        "num_bikes": 6,
+        "travelTime": 632
+    },
+    {
+        "idInitialStation": 139,
+        "idEndStation": 145,
+        "num_bikes": 2,
+        "travelTime": 1439
+    },
+    {
+        "idInitialStation": 139,
+        "idEndStation": 141,
+        "num_bikes": 4,
+        "travelTime": 369
+    },
+    {
+        "idInitialStation": 139,
+        "idEndStation": 145,
+        "num_bikes": 2,
+        "travelTime": 251
+    },
+    {
+        "idInitialStation": 140,
+        "idEndStation": 140,
+        "num_bikes": 5,
+        "travelTime": 5
+    },
+    {
+        "idInitialStation": 142,
+        "idEndStation": 142,
+        "num_bikes": 3,
+        "travelTime": 11
+    },
+    {
+        "idInitialStation": 145,
+        "idEndStation": 139,
+        "num_bikes": 2,
+        "travelTime": 349
+    },
+    {
+        "idInitialStation": 146,
+        "idEndStation": 146,
+        "num_bikes": 2,
+        "travelTime": 15
+    },
+    {
+        "idInitialStation": 146,
+        "idEndStation": 69,
+        "num_bikes": 4,
+        "travelTime": 1484
+    },
+    {
+        "idInitialStation": 147,
+        "idEndStation": 142,
+        "num_bikes": 7,
+        "travelTime": 577
+    },
+    {
+        "idInitialStation": 149,
+        "idEndStation": 149,
+        "num_bikes": 1,
+        "travelTime": 11
+    },
+    {
+        "idInitialStation": 149,
+        "idEndStation": 156,
+        "num_bikes": 1,
+        "travelTime": 3289
+    },
+    {
+        "idInitialStation": 149,
+        "idEndStation": 146,
+        "num_bikes": 10,
+        "travelTime": 4592
+    },
+    {
+        "idInitialStation": 149,
+        "idEndStation": 156,
+        "num_bikes": 3,
+        "travelTime": 2815
+    },
+    {
+        "idInitialStation": 149,
+        "idEndStation": 146,
+        "num_bikes": 1,
+        "travelTime": 4553
+    },
+    {
+        "idInitialStation": 149,
+        "idEndStation": 149,
+        "num_bikes": 2,
+        "travelTime": 10
+    },
+    {
+        "idInitialStation": 149,
+        "idEndStation": 145,
+        "num_bikes": 3,
+        "travelTime": 1762
+    },
+    {
+        "idInitialStation": 149,
+        "idEndStation": 58,
+        "num_bikes": 4,
+        "travelTime": 5337
+    },
+    {
+        "idInitialStation": 149,
+        "idEndStation": 149,
+        "num_bikes": 1,
+        "travelTime": 11
+    },
+    {
+        "idInitialStation": 149,
+        "idEndStation": 144,
+        "num_bikes": 4,
+        "travelTime": 1524
+    },
+    {
+        "idInitialStation": 151,
+        "idEndStation": 129,
+        "num_bikes": 13,
+        "travelTime": 1353
+    },
+    {
+        "idInitialStation": 154,
+        "idEndStation": 154,
+        "num_bikes": 1,
+        "travelTime": 7
+    },
+    {
+        "idInitialStation": 154,
+        "idEndStation": 168,
+        "num_bikes": 1,
+        "travelTime": 509
+    },
+    {
+        "idInitialStation": 157,
+        "idEndStation": 152,
+        "num_bikes": 2,
+        "travelTime": 1159
+    },
+    {
+        "idInitialStation": 157,
+        "idEndStation": 130,
+        "num_bikes": 2,
+        "travelTime": 2224
+    },
+    {
+        "idInitialStation": 157,
+        "idEndStation": 152,
+        "num_bikes": 2,
+        "travelTime": 951
+    },
+    {
+        "idInitialStation": 159,
+        "idEndStation": 129,
+        "num_bikes": 5,
+        "travelTime": 2935
+    },
+    {
+        "idInitialStation": 159,
+        "idEndStation": 64,
+        "num_bikes": 6,
+        "travelTime": 3623
+    },
+    {
+        "idInitialStation": 160,
+        "idEndStation": 42,
+        "num_bikes": 6,
+        "travelTime": 6248
+    },
+    {
+        "idInitialStation": 160,
+        "idEndStation": 160,
+        "num_bikes": 2,
+        "travelTime": 4
+    },
+    {
+        "idInitialStation": 162,
+        "idEndStation": 124,
+        "num_bikes": 9,
+        "travelTime": 1213
+    },
+    {
+        "idInitialStation": 162,
+        "idEndStation": 132,
+        "num_bikes": 2,
+        "travelTime": 2777
+    },
+    {
+        "idInitialStation": 162,
+        "idEndStation": 78,
+        "num_bikes": 6,
+        "travelTime": 3022
+    },
+    {
+        "idInitialStation": 162,
+        "idEndStation": 83,
+        "num_bikes": 1,
+        "travelTime": 3830
+    },
+    {
+        "idInitialStation": 162,
+        "idEndStation": 78,
+        "num_bikes": 3,
+        "travelTime": 1255
+    },
+    {
+        "idInitialStation": 162,
+        "idEndStation": 162,
+        "num_bikes": 1,
+        "travelTime": 32
+    },
+    {
+        "idInitialStation": 162,
+        "idEndStation": 136,
+        "num_bikes": 9,
+        "travelTime": 1637
+    },
+    {
+        "idInitialStation": 162,
+        "idEndStation": 128,
+        "num_bikes": 1,
+        "travelTime": 2758
+    },
+    {
+        "idInitialStation": 162,
+        "idEndStation": 108,
+        "num_bikes": 4,
+        "travelTime": 1239
+    },
+    {
+        "idInitialStation": 163,
+        "idEndStation": 143,
+        "num_bikes": 6,
+        "travelTime": 2503
+    },
+    {
+        "idInitialStation": 164,
+        "idEndStation": 110,
+        "num_bikes": 1,
+        "travelTime": 3311
+    },
+    {
+        "idInitialStation": 164,
+        "idEndStation": 111,
+        "num_bikes": 1,
+        "travelTime": 3670
+    },
+    {
+        "idInitialStation": 164,
+        "idEndStation": 112,
+        "num_bikes": 3,
+        "travelTime": 3717
+    },
+    {
+        "idInitialStation": 164,
+        "idEndStation": 111,
+        "num_bikes": 2,
+        "travelTime": 4156
+    },
+    {
+        "idInitialStation": 164,
+        "idEndStation": 67,
+        "num_bikes": 1,
+        "travelTime": 129594
+    },
+    {
+        "idInitialStation": 167,
+        "idEndStation": 163,
+        "num_bikes": 2,
+        "travelTime": 939
+    },
+    {
+        "idInitialStation": 167,
+        "idEndStation": 168,
+        "num_bikes": 2,
+        "travelTime": 1556
+    },
+    {
+        "idInitialStation": 167,
+        "idEndStation": 163,
+        "num_bikes": 6,
+        "travelTime": 563
+    },
+    {
+        "idInitialStation": 167,
+        "idEndStation": 142,
+        "num_bikes": 1,
+        "travelTime": 1797
+    },
+    {
+        "idInitialStation": 167,
+        "idEndStation": 81,
+        "num_bikes": 2,
+        "travelTime": 4138
+    },
+    {
+        "idInitialStation": 168,
+        "idEndStation": 168,
+        "num_bikes": 1,
+        "travelTime": 12
+    },
+    {
+        "idInitialStation": 168,
+        "idEndStation": 42,
+        "num_bikes": 7,
+        "travelTime": 7699
+    },
+    {
+        "idInitialStation": 168,
+        "idEndStation": 168,
+        "num_bikes": 1,
+        "travelTime": 11
+    },
+    {
+        "idInitialStation": 168,
+        "idEndStation": 145,
+        "num_bikes": 7,
+        "travelTime": 1053
+    },
+    {
+        "idInitialStation": 168,
+        "idEndStation": 143,
+        "num_bikes": 1,
+        "travelTime": 1895
+    },
+    {
+        "idInitialStation": 168,
+        "idEndStation": 130,
+        "num_bikes": 10,
+        "travelTime": 3077
+    },
+    {
+        "idInitialStation": 168,
+        "idEndStation": 168,
+        "num_bikes": 1,
+        "travelTime": 11
+    },
+    {
+        "idInitialStation": 168,
+        "idEndStation": 72,
+        "num_bikes": 2,
+        "travelTime": 3721
+    },
+    {
+        "idInitialStation": 168,
+        "idEndStation": 113,
+        "num_bikes": 8,
+        "travelTime": 4640
+    },
+    {
+        "idInitialStation": 168,
+        "idEndStation": 139,
+        "num_bikes": 1,
+        "travelTime": 588
+    },
+    {
+        "idInitialStation": 169,
+        "idEndStation": 169,
+        "num_bikes": 1,
+        "travelTime": 9
+    },
+    {
+        "idInitialStation": 172,
+        "idEndStation": 172,
+        "num_bikes": 2,
+        "travelTime": 4
+    },
+    {
+        "idInitialStation": 173,
+        "idEndStation": 9,
+        "num_bikes": 9,
+        "travelTime": 891
+    },
+    {
+        "idInitialStation": 173,
+        "idEndStation": 58,
+        "num_bikes": 3,
+        "travelTime": 1840
+    },
+    {
+        "idInitialStation": 174,
+        "idEndStation": 174,
+        "num_bikes": 1,
+        "travelTime": 15
+    },
+    {
+        "idInitialStation": 174,
+        "idEndStation": 102,
+        "num_bikes": 1,
+        "travelTime": 3100
+    },
+    {
+        "idInitialStation": 174,
+        "idEndStation": 101,
+        "num_bikes": 6,
+        "travelTime": 3425
+    },
+    {
+        "idInitialStation": 175,
+        "idEndStation": 102,
+        "num_bikes": 9,
+        "travelTime": 1563
+    },
+    {
+        "idInitialStation": 175,
+        "idEndStation": 99,
+        "num_bikes": 7,
+        "travelTime": 2828
+    },
+    {
+        "idInitialStation": 175,
+        "idEndStation": 109,
+        "num_bikes": 3,
+        "travelTime": 3913
+    },
+    {
+        "idInitialStation": 175,
+        "idEndStation": 153,
+        "num_bikes": 5,
+        "travelTime": 3056
+    },
+    {
+        "idInitialStation": 175,
+        "idEndStation": 93,
+        "num_bikes": 7,
+        "travelTime": 2937
+    }
+]
