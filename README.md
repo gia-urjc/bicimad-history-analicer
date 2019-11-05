@@ -1,10 +1,15 @@
 # bicimad-history-analicer - Introduction
-bicimad-history-analicer is a software that find to create lists of users of Bike shered system of Madrid(Bicimad) and London(Santander Cycles) and stations configuration files to run in the simulator Bike3S-Simulator. <br />
-In other hand, This software is capable of creating a demand matrix from historical data(preconditioned) <br/>
-Further, You can also create demand matrices from historical data.
+<p align='justify'>bicimad-history-analicer is a software that find to create lists of users of Bike shered system of Madrid(Bicimad) and London(Santander Cycles) and stations configuration files to run in the simulator Bike3S-Simulator.<br />
+In other hand, This software is capable of creating a demand matrix from historical data(preconditioned)<br/>
+Further, You can also create demand matrices from historical data.</p> 
 
 ## Usage
-To run this app is necesary TODO
+To run this app is necesary to run by python command line specifying th econfiguration that you like execute. In this project there are files with examples configuration to run the several options of the system. 
+For example, to run the configuration thar return the configurations files of the simulation is:
+
+`
+data/stationsinfo/Madrid/stations.json data/routesInfo/Madrid "2018-07-20T00:00:00.000+0200" "2018-07-21T23:59:00.000+0200" results/demandMatrix.json
+`
 
 ### User configuration
 
