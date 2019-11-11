@@ -20,3 +20,61 @@ To create user configuration file of BiciMad, you must add the historical files 
 ]
 `<br/>
 these files must be in the folder project: data/routesInfo/Madrid and another configuration file with the information of the system stations is necessary. This configuration file contains the id, capacity and position{latitude and longtude} of the stations of the Byke sharing system. <br/>
+
+#### Madrid users configuration
+
+In this type of users configuration, the app create a file with the users that fulfill the  date condition.
+
+In this section, the format date is very important, because the historical data file contains this specific typy od date-time:
+`
+“<YYYY-MM-DDThh:mm:ss.000+TZD>”
+`
+To run this section in command line, You need to install Python, and when you have this, run this command:
+
+`
+python main.py data/stationsinfo/Madrid/stations.json data/routesInfo/Madrid "dateInit" "dateEnd"
+`
+
+On the menu, you select the option 1.
+
+#### Second configuration option(user type 3 of historical data of Bicimad(Madrid); usertruck)
+
+this option include in the fileUserConfiguration the special users. This special users are the redistribution employer of the real system that they move the bikes between stations of the city of Madrid.
+On the menu, you select the option 6.
+
+#### London users configuration
+
+In this type of users configuration, the app create a file with the users that fulfill the  date condition.
+
+In this section, the format date is very important, because the historical data file contains this specific typy od date-time:
+`
+“<DD/MM/YYYY hh:mm>”
+`
+To run this section in command line, You need to install Python, and when you have this, run this command:
+
+`
+python main.py data/stationsinfo/London/stations.json data/routesInfo/London "dateInit" "dateEnd"
+`
+
+On the menu, you select the option 2.
+
+#### New York users configuration
+
+In this type of users configuration, the app create a file with the users that fulfill the  date condition.
+
+In this section, the format date is very important, because the historical data file contains this specific typy od date-time:
+`
+“<YYYY-MM-DD hh:mm:ss.mmmm>”
+`
+To run this section in command line, You need to install Python, and when you have this, run this command:
+
+`
+python main.py data/stationsinfo/NY/stations.json data/routesInfo/NY "dateInit" "dateEnd"
+`
+
+On the menu, you select the option 3.
+
+
+### Stations Configuration
+### Demand Matrix from historical data of BiciMad
+
